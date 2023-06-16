@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1280px;
+    margin: 0 auto 0 auto;
+}
+ 
+.carrossel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.imagem__logo{
+width: 30%;
+height: 30%;
+border-radius: 80px;
+padding: 0% 20% 10% auto;
+margin: 5% 20%;
+
+}
+
+.titulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(229, 231, 222);
+    text-align: center;
+}
+
+.titulo__segundo{
+    font-size: 140px;
+    font-weight: 600;
+    color: rgb(231, 228, 13);
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.carrossel .fundo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 200px;
+    margin: 2% 10% ;
+}
+
+.cabecalho__menu__link{
+     font-size: 35px;
+    font-weight: 500;
+    color:rgb(204, 192, 29);
+    font-weight: 900;
+}
+
+.cabecalho__menu__link:hover{
+    transform: scale(1.2);
+}
+
+.titulo__terceiro{
+    font-size: 40px;
+    color: beige;
+    align-items: center;
+    text-align: center;
+    text-decoration:overline ;
+    margin-top: 24%;
+    }
+
+    .lista{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .lista__cabelo{
+        font-size: 50px;
+        margin-top: 10px;
+        align-items: center;
+        color: rgb(52, 206, 206);
+        font-weight: 900;
+        margin-bottom: 3%;
+        text-decoration: none;
+        flex-direction: column;
+
+    }
+
+.cabelos{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+    .imagem__cabelo{
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+
+    .titulo__quarto{
+        font-size: 40px;
+        color: beige;
+        align-items: center;
+        text-align: center;
+        text-decoration:overline ;
+        margin-top: 20%;
+    }
+    
+    .lista__secundaria{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .lista__unha{
+        font-size: 50px;
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+        color: rgb(84, 199, 74);
+        font-weight: 900;
+        margin-bottom: 4%;
+        text-decoration: none;
+    }
+
+    .imagem__unha{
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .rodape{
+        color: rgb(7, 1, 12);
+        background-color: rgb(199, 47, 148);
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 7%;
+        padding: 24px;
+        margin: 7% 0% 8% 0%;
+    }
+
+    .imagem__foto{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 250px;
+        margin-top: 7%;
+        margin: 4% 20% 3% 24%;
+    }
+
+    .meunome{
+        font-size: 50px;
+        color: rgb(239, 255, 14);
+        align-items: center;
+        text-align: center;
+        font-family: 'Tilt Prism', cursive;
+        font-weight: 700;
+    }
+
+    .unhas{
+        display: flex;
+        gap: 3px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .texto{
+        font-size: 30px;
+        color: azure;
+        align-items: center;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    .texto__secundario{
+        font-size: 28px;
+        text-align: center;
+        margin-top: 1%;
+        color: aqua;
+    }
+
+    .menu__lateral{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 175vh;
+        margin: 3%;
+
+    }
+
+    .menu__lateral ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu__lateral .icone{
+        width: 70px;
+        border-radius: 50px;
+        transition: 0.3s ease-in-out;
+
+    }
+
+.menu__lateral .icone:hover{
+    transform: scale(1.2);
+}
+
